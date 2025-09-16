@@ -115,3 +115,40 @@ footer{
     text-align: center;
     color: rgb(255, 255, 255);
 }
+
+form{
+    background-color: #f6f4f0;
+    border-radius: 50px;
+    padding: 50px;
+    color: #3e1711;
+}
+
+form label{
+    font-size: 25px;
+    padding: 30px;
+}
+
+form input{
+    color: #3e1711;
+    background-color: #c2c1be;
+    border-width: 0;
+    border-radius: 25px;
+    font-size: 25px;
+    padding: 15px;
+}
+
+form button{
+    display: block;
+    margin: auto;
+    border-width: 0;
+    background-color: #3e1711;
+    color: #c2c1be;
+    padding: 15px;
+    border-radius: 50px;
+    transition: 0.3s;
+    font-size: 25px;
+}
+
+form button:hover{
+    transform: scale(1.1);
+}
